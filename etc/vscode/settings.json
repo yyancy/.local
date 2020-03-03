@@ -1,0 +1,5 @@
+{
+    // using cmder as the default terminal
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.shellArgs.windows": ["/k", "E:\\Program Files\\cmder\\vendor\\init.bat"],
+}
