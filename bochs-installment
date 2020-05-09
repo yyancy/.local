@@ -1,0 +1,12 @@
+bochs 安装
+
+这是未安装bochs-x的缘故
+解决方案:
+sudo apt-get install bochs以后接着安装bochs-x.
+sudo apt-get install bochs-x
+
+2.bx_dbg_read_linear: physical memory read error (phy=0x0000000000000000, lin=0x00000000)
+解决方案:将bochsrc文件中第10行vgaromimage: /usr/share/vgabios/vgabios.bin改为 vgaromimage: file=/usr/share/vgabios/vgabios.bin
+
+3.进入bochs以后开始黑屏
+这估计是进入了debug模式，在终端输入c，回车就出来了
