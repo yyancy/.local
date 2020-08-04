@@ -51,6 +51,8 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " neadtree settings
 autocmd vimenter * NERDTree
+wincmd w
+autocmd VimEnter * wincmd w
 noremap <leader>n  :NERDTreeToggle<cr>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
