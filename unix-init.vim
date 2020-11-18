@@ -196,6 +196,26 @@ let g:terminal_color_12 = '#CAA9FA'
 let g:terminal_color_13 = '#FF92D0'
 let g:terminal_color_14 = '#9AEDFE'
 
+" 至行首
+cnoremap <C-A>         <Home>
+" 后退一个字符
+cnoremap <C-B>         <Left>
+" 删除光标所在的字符
+cnoremap <C-D>         <Del>
+" 至行尾
+cnoremap <C-E>         <End>
+" 前进一个字符
+cnoremap <C-F>         <Right>
+" 取回较新的命令行
+cnoremap <C-N>         <Down>
+" 取回以前 (较旧的) 命令行
+cnoremap <C-P>         <Up>
+" 后退一个单词
+cnoremap <Esc><C-B>    <S-Left>
+" 前进一个单词
+cnoremap <Esc><C-F>    <S-Right>
+
+
 
 
 " ===
